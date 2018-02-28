@@ -33,4 +33,4 @@ del(re)
 
 __all__ = []
 
-default_app_config = 'django_celery_results.apps.CeleryResultConfig'
+# Removing so the app still installs default_app_config = 'django_celery_results.apps.CeleryResultConfig'
